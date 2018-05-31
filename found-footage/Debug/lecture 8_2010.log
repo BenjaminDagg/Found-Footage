@@ -1,0 +1,229 @@
+﻿Build started 5/2/2017 12:54:04 PM.
+     1>Project "C:\Users\Ben\Desktop\game_design\milestone2 - Copy\lecture 8_2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /openmp- /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  "homework 4.cpp"
+         homework 4.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50092): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50101): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50110): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50119): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50128): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50137): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50146): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50161): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50170): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50179): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50188): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50197): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50206): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50216): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50225): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50235): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50244): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50254): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50263): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50272): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50282): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50291): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50469): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50478): note: see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50488): note: see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50497): note: see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50445): note: see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+         c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50454): note: see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2662): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2663): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2664): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2665): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2666): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2667): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2668): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2689): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2690): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2691): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2694): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2695): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2698): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2702): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2712): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2713): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2715): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2716): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2717): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2727): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2728): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2729): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2730): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2731): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2732): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2742): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2743): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamath.h(2754): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(2254): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4523): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4577): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4639): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4707): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4770): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathconvert.inl(4832): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathvector.inl(1269): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathmisc.inl(518): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\xnamathmisc.inl(519): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(246): warning C4305: 'initializing': truncation from '__int64' to 'int'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(246): warning C4309: 'initializing': truncation of constant value
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(249): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(251): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(255): warning C4305: '=': truncation from '__int64' to 'int'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(255): warning C4309: '=': truncation of constant value
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(257): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(270): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(326): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(332): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(349): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(306): warning C4100: 'dest': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(383): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(384): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(385): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(394): warning C4553: '==': operator has no effect; did you intend '='?
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(465): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(456): warning C4100: 'playerPos': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(493): warning C4100: 'leveldata': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(493): warning C4100: 'viewm': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(493): warning C4100: 'enemyPos': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(505): warning C4100: 'viewm': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(634): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(636): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(638): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(640): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(645): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(650): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(687): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(692): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(712): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(716): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(812): warning C4458: declaration of 'pos' hides class member
+         c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(734): note: see declaration of 'Tape::pos'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(814): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(815): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(816): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(842): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(843): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(852): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(853): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(828): warning C4100: 'camPos': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(882): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(872): warning C4100: 'view': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(917): warning C4101: 'det': unreferenced local variable
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(989): warning C4244: '-=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(990): warning C4244: '-=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(991): warning C4244: '-=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(995): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(996): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(997): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(1021): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(1058): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(1149): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(1134): warning C4100: 'view': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(1194): warning C4101: 'det': unreferenced local variable
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(97): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(151): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_wstring.h(121): note: see declaration of 'wcscpy'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(169): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_wstring.h(121): note: see declaration of 'wcscpy'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(198): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\sound.h(207): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(965): warning C4552: '-': operator has no effect; expected operator with side-effect
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4459: declaration of 'x' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(184): note: see declaration of 'x'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1044): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1045): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4100: 'keyFlags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4100: 'y': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4100: 'x': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4100: 'fDoubleClick': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1033): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4459: declaration of 'x' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(184): note: see declaration of 'x'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4100: 'keyFlags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4100: 'y': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4100: 'x': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4100: 'fDoubleClick': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1050): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1057): warning C4100: 'cRepeat': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1057): warning C4100: 'ch': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1057): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1064): warning C4459: declaration of 'x' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(184): note: see declaration of 'x'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1064): warning C4100: 'keyFlags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1064): warning C4100: 'y': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1064): warning C4100: 'x': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1064): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1072): warning C4459: declaration of 'x' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(184): note: see declaration of 'x'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1072): warning C4100: 'keyFlags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1072): warning C4100: 'y': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1072): warning C4100: 'x': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1072): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1081): warning C4459: declaration of 'x' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(184): note: see declaration of 'x'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1090): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1081): warning C4100: 'y': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1110): warning C4100: 'lpCreateStruct': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1110): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1117): warning C4100: 'id': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1117): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1122): warning C4100: 'flags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1122): warning C4100: 'cRepeat': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1122): warning C4100: 'fDown': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1122): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1144): warning C4100: 'flags': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1144): warning C4100: 'cRepeat': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1144): warning C4100: 'fDown': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1144): warning C4100: 'hwnd': unreferenced formal parameter
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1258): warning C4459: declaration of 'M' hides global declaration
+         c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(211): note: see declaration of 'M'
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1304): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\homework 4.cpp(1306): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ben\desktop\game_design\milestone2 - copy\groundwork.h(262): warning C4701: potentially uninitialized local variable 'myClosest' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Desktop\game_design\milestone2 - Copy\Debug\homework 4.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dcompiler.lib d3dx11d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\Ben\Desktop\game_design\milestone2 - Copy\Debug\homework 4.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben\Desktop\game_design\milestone2 - Copy\Debug\homework 4.lib" /MACHINE:X86 /SAFESEH  "Debug\homework 8.res"
+         "Debug\homework 4.obj"
+         Debug\load3ds.obj
+         Debug\sound.obj
+     1>homework 4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         lecture 8_2010.vcxproj -> C:\Users\Ben\Desktop\game_design\milestone2 - Copy\Debug\homework 4.exe
+     1>Done Building Project "C:\Users\Ben\Desktop\game_design\milestone2 - Copy\lecture 8_2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.46
